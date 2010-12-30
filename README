@@ -1,10 +1,22 @@
-Skeleton for REAME file
+README
 
-Introduce 'modules' in Open Wonderland context.
+This is an Open Wonderland module; a piece of code that extends the functionality
+of the Open Wonderland Virtual Worlds Toolkit (http://openwonderland.org)
 
-Add a link to the tutorial in the community wiki.
+This code was written for the tutorial that can be read at:
+http://faithhold.dyndns.org:8080/JSPWiki/Wiki.jsp?page=Sample%20HUD%20Tutorial
+
+The code creates a HUD (heads up display) showing a simple JButton, that can be
+activated/deactivated by the user.
 
 How to use this module
 
+Simple use 'ant deploy' from command line.
 To use the tutorial make sure you modify my.module.properties to reflect your
 local Open Wodnderland installation.
+
+More information about how to work with modules can be found here:
+http://wiki.java.net/bin/view/Javadesktop/ProjectWonderlandWorkingWithModules05
+
+
+Jos -- December 2o1o
