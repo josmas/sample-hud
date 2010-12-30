@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.jdesktop.wonderland.modules.samplehud.client;
 
 import java.awt.event.ActionEvent;
@@ -49,6 +45,7 @@ public class SampleHUD {
      */
     private JPanel createPanelForHUD() {
         //We are not packing or showing so this should be thread-safe.
+        //TODO: can I Test Drive it with windowlicker?
         JPanel panelForHUD = new JPanel();
 
         oneButton = new JButton("Click me! I am a button! :P");
@@ -71,7 +68,7 @@ public class SampleHUD {
 
             public void run() {
                 if (sampleHud == null) {
-                    JPanel panelForHUD = createPanelForHUD(); //Think about this a bit more! can I Test Drive it? windowlicker!
+                    JPanel panelForHUD = createPanelForHUD();
                     sampleHud = mainHUD.createComponent(panelForHUD);
                     sampleHud.setDecoratable(true);
                     sampleHud.setName("Sample HUD");
