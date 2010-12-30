@@ -44,7 +44,6 @@ public class SampleHUD {
      * @return panelForHUD
      */
     private JPanel createPanelForHUD() {
-        //We are not packing or showing so this should be thread-safe.
         //TODO: can I Test Drive it with windowlicker?
         JPanel panelForHUD = new JPanel();
 
